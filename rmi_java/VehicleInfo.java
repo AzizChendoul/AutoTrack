@@ -1,0 +1,1 @@
+import java.io.Serializable; public class VehicleInfo implements Serializable { public String model; public int mileage; public int year; public VehicleInfo(String m, int k, int y) { this.model = m; this.mileage = k; this.year = y; } public String toString() { return model + " (" + year + ")"; } }
